@@ -1,0 +1,17 @@
+[package]
+name = "rustcore"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+# zero external dependencies: the server has no internet and the artifact
+# must stay auditable; std only.
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

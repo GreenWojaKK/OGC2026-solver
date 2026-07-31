@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.venv/
+native/rustcore/target/
+native/geoexact/geoexact.so
+artifacts/
+experiments/logs/
+experiments/results/
+*.zip
+core
+core.*
