@@ -44,6 +44,19 @@
   "leaderboard_reference": {
     "current_per_problem_r_nb": null,
     "current_competitor_score_distribution": null,
+    "preliminary_final_snapshot": {
+      "status": "final preliminary standings",
+      "best_objectives": {
+        "P1": 11280,
+        "P2": 31368,
+        "P3": 64695,
+        "P4": 1908043,
+        "P5": 7718486,
+        "P6": 25452695
+      },
+      "definition": "lowest objective per problem across all competitors at the final preliminary standings",
+      "use": "authoritative frontier reference; supersedes historical_interim_snapshot"
+    },
     "historical_interim_snapshot": {
       "age_when_reported": "about two weeks",
       "leader_objectives": {
